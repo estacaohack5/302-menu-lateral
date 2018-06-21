@@ -14,7 +14,7 @@ aside {
     justify-content: flex-start;
     align-items: center;
     transform: translateX(-230px);
-    transition: 5s;
+    transition: 1.2s;
 }
 
 aside h1{
@@ -30,5 +30,5 @@ img{
 
 aside.active{
     transform: translateX(0);
-    transition: 5s;
+    transition: 1.2s;
 }
