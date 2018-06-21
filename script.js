@@ -1,5 +1,5 @@
 const menu = document.querySelector("aside");
-const botao = document.querySelector("img");
+const botao = document.querySelector("#hamburger");
 
 function deslizar(){
     if(menu.classList.contains("active")){
