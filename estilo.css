@@ -35,9 +35,22 @@ aside h1{
     border-radius: 25%;
     height: 6px;
     margin-top: 5px;
+    transition: 1.2s;
 }
 
 aside.active{
     transform: translateX(0);
     transition: 1.2s;
+}
+
+#hamburger.active .tracinho:nth-child(1){
+    transform: rotate(45deg) translate(7px, 9px);
+}
+
+#hamburger.active .tracinho:nth-child(2){
+    display: none;
+}
+
+#hamburger.active .tracinho:nth-child(3){
+    transform: rotate(135deg);
 }
